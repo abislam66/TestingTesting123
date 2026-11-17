@@ -8,6 +8,7 @@ class UniqueCollection {
     fun addItem (item: Item) {
         if (!collection.contains(item))
             collection.add(item)
+
     }
 
     /** Return an element from the collection at the specified position */
